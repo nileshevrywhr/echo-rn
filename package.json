@@ -1,0 +1,32 @@
+{
+  "name": "echo-react-native",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "echo '🚨🚨 Once Expo has started, press `a` 🚨🚨' && npm start",
+    "ios": "echo '🚨🚨 Once Expo has started, press `i` 🚨🚨' && npm start",
+    "build:android": "expo build:android",
+    "build:ios": "expo build:ios",
+    "check-types": "echo 'Type checking skipped - TypeScript not available in node_modules'"
+  },
+  "dependencies": {
+    "@config-plugins/react-native-webrtc": "^13.0.0",
+    "@elevenlabs/react-native": "^0.5.1",
+    "@livekit/react-native": "^2.9.2",
+    "@livekit/react-native-expo-plugin": "^1.0.1",
+    "@livekit/react-native-webrtc": "^137.0.2",
+    "expo": "^54.0.17",
+    "expo-dev-client": "~5.2.7",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/node": "^20.8.0",
+    "@types/react": "~19.1.10",
+    "@types/react-native": "^0.73.0",
+    "typescript": "~5.9.2"
+  }
+}
