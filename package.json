@@ -1,32 +1,44 @@
 {
-  "name": "echo-react-native",
+  "name": "echo",
   "version": "1.0.0",
+  "description": "A minimal React Native Expo app demonstrating the ElevenLabs React Native SDK for voice conversations.",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "expo start",
     "android": "echo '🚨🚨 Once Expo has started, press `a` 🚨🚨' && npm start",
     "ios": "echo '🚨🚨 Once Expo has started, press `i` 🚨🚨' && npm start",
     "build:android": "expo build:android",
     "build:ios": "expo build:ios",
-    "check-types": "echo 'Type checking skipped - TypeScript not available in node_modules'"
+    "check-types": "tsc --noEmit"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nileshevrywhr/echo-rn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nileshevrywhr/echo-rn/issues"
+  },
+  "homepage": "https://github.com/nileshevrywhr/echo-rn#readme",
   "dependencies": {
     "@config-plugins/react-native-webrtc": "^13.0.0",
     "@elevenlabs/react-native": "^0.5.1",
-    "@livekit/react-native": "^2.9.2",
+    "@livekit/react-native": "^2.9.3",
     "@livekit/react-native-expo-plugin": "^1.0.1",
     "@livekit/react-native-webrtc": "^137.0.2",
-    "expo": "^54.0.17",
-    "expo-dev-client": "5.2.4",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
-    "react-native": "0.79.5"
+    "expo": "^54.0.21",
+    "expo-dev-client": "~6.0.16",
+    "react": "^19.2.0",
+    "react-native": "^0.82.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.2",
-    "@types/node": "^20.8.0",
+    "@babel/core": "^7.28.5",
+    "@types/node": "^24.9.2",
     "@types/react": "~19.1.10",
-    "@types/react-native": "^0.73.0",
-    "typescript": "~5.9.2"
+    "typescript": "^5.9.3"
   }
 }
