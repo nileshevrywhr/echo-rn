@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ECHO",
-    "slug": "echo-rn",
+    "slug": "echo",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
@@ -14,7 +14,7 @@
         "NSMicrophoneUsageDescription": "This app needs access to microphone for voice conversations."
       },
       "bitcode": false,
-      "bundleIdentifier": "com.bananalabs.echo-rn"
+      "bundleIdentifier": "com.bananalabs.echo"
     },
     "android": {
       "adaptiveIcon": {
@@ -31,7 +31,7 @@
         "android.permission.WAKE_LOCK",
         "android.permission.BLUETOOTH"
       ],
-      "package": "com.bananalabs.echo-rn"
+      "package": "com.bananalabs.echo"
     },
     "plugins": [
       "@livekit/react-native-expo-plugin",
@@ -39,7 +39,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "d87287cf-0ec8-4f77-bf96-9b5feb37a004"
+        "projectId": "98889449-655b-4f26-88ed-9543bb69ff18"
       }
     },
     "owner": "bananalabs"
